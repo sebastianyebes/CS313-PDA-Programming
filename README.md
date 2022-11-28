@@ -21,7 +21,7 @@ Read and Skipped: a
 Popped: b
 Popped: a
 
-Input is Accepted!
+Input is a palindrome, therefore it is Accepted!
 ``` 
 
 - If you input `2` in the console, it will ask for an input (`'('`, `')'`, `'{'`, `'}'`, `'['`, `']'`) and sovles it if the string is balanced or not
@@ -29,4 +29,16 @@ Input is Accepted!
 ``` bash
 BALANCING PARENTHESES
 
-Input: 
+Input: [()]{()}
+
+Pushed: [
+Pushed: (
+Popped: )
+Popped: ]
+Pushed: {
+Pushed: (
+Popped: )
+Popped: }
+
+Input is Balanced, therefore it is Accepted!
+```
