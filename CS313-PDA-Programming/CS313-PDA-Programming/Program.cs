@@ -19,6 +19,10 @@ class Program
         {
             Console.WriteLine("BALANCING PARANTHESES\n");
         }
+        else
+        {
+            throw new Exception("Invalid Input");
+        }
 
         Console.Write("Input: ");
         input = Console.ReadLine();
