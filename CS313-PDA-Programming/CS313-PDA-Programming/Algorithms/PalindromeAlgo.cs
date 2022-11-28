@@ -2,11 +2,13 @@
 
 namespace CS313_PDA_Programming.Algorithms
 {
-    /// <summary>
-    /// Solves the input wether if the input is accepted as a palindrome or not
-    /// </summary>
     internal class PalindromeAlgo : IAlgorithm
     {
+        /// <summary>
+        /// Solves the input wether if the input is accepted as a palindrome or not
+        /// </summary>
+        /// <param name="input"> the string to be solved </param>
+        /// <exception cref="Exception"> throws an error Input is null </exception>
         public void implement(string input)
         {
             Stack<char> stack = new Stack<char>();
