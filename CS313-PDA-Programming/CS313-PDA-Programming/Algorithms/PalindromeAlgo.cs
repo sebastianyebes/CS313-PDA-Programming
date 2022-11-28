@@ -65,11 +65,11 @@ namespace CS313_PDA_Programming.Algorithms
             // if the stack is empty, then it means the input is a palindrome
             if(stack.Count == 0)
             {
-                Console.WriteLine("\nInput is Accepted!");
+                Console.WriteLine("\nInput is a palindrome, therefore it is Accepted!");
             }
             else
             {
-                Console.WriteLine("\nInput is not Accepted!");
+                Console.WriteLine("\nInput is not a palindrome, therefore it is not Accepted");
             }
         }
     }
