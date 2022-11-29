@@ -27,6 +27,6 @@ class Program
         Console.Write("Input: ");
         input = Console.ReadLine();
         IAlgorithm algorithm = PDAFactory.GetAlgorithm(program);
-        algorithm.implement(input);
+        algorithm.implement(input!);
     }
 }
